@@ -1,0 +1,141 @@
+:root {
+  --corBlue100: #e0e8ffff; /* Cor de fundo */
+  --corBlue700: #3829e0ff; /*  */
+  --corBlue50: #f5f7ffff; /**/
+  --corGray600: #7280a7ff; /**/
+  --corBlue950: #1f2f56ff; /**/
+  --corBranca: #ffff;
+  --fonte: "Red Hat Display", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--corBlue100);
+  font-family: var(--fonte);
+  /* font-size: var(--tamanho-Da-Fonte); */
+}
+
+#container {
+  height: 600px;
+  width: 400px;
+  background-color: var(--corBranca);
+  margin: 155px auto;
+  border-radius: 10px;
+}
+
+#container .girl-dance {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.informations {
+  text-align: center;
+  margin: 25px;
+}
+
+.informations h1 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.informations p {
+  color: var(--corGray600);
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.plan {
+  display: flex;
+  margin: 15px 35px;
+  /* max-height: px; */
+  max-width: 380px;
+  padding: 15px;
+  background-color: var(--corBlue50);
+  border-radius: 10px;
+}
+
+.plan .music {
+  padding: 10px;
+  align-items: center;
+}
+
+.informations-plan {
+  padding-left: 10px;
+}
+
+.informations-plan h3 {
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding-top: 10px;
+  margin-bottom: 4px;
+}
+
+.informations-plan p {
+  color: var(--corGray600);
+  font-weight: 500;
+}
+
+.link {
+  /* padding: 20px; */
+  padding-top: 20px;
+  padding-left: 75px;
+}
+
+.link a {
+  font-weight: 900;
+  font-size: 14px;
+  color: var(--corBlue700);
+}
+
+.link a:hover {
+  color: var(--corBlue700);
+  opacity: 0.7;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+  margin: 15px 35px;
+  /* padding: 15px; */
+}
+
+button {
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.pay {
+  background-color: var(--corBlue700);
+  color: var(--corBranca);
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+.pay:hover {
+  background-color: var(--corBlue700);
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.cancel {
+  background-color: var(--corBranca);
+  color: var(--corGray600);
+  font-weight: 700;
+}
+
+
+/* RESPONSIVE */
