@@ -137,5 +137,9 @@ button {
   font-weight: 700;
 }
 
-
 /* RESPONSIVE */
+@media (min-width: 375px) {
+#container{
+  
+}
+}
